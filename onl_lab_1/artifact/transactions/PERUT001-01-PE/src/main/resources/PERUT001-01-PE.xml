@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<transaction xmlns="http://www.w3schools.com" transactionName="PERUT001" application="PERU" version="01" country="PE" language="ES">
+	<paramsIn>
+		<dto order="1" name="helloworld" mandatory="1" package="com.bbva.peru.dto.lab.HelloWorld" artifactId="PERUC001">
+			<parameter order="1" name="name" mandatory="1" type="String" size="20"/>
+		</dto>
+	</paramsIn>
+	<paramsOut>
+		<dto order="1" name="helloworldOut" mandatory="1" package="com.bbva.peru.dto.lab.HelloWorldOut" artifactId="PERUC001">
+			<parameter order="1" name="hello" mandatory="1" type="String" size="40"/>
+			<parameter order="2" name="bye" mandatory="1" type="String" size="40"/>
+		</dto>
+	</paramsOut>
+	<description>trx lab</description>
+</transaction>
